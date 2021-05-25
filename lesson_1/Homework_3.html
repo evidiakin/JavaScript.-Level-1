@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+<script>
+    // 1. К 10 прибавляет 10, получаем 20,
+    // 2. К 20 дописываем строчную 10, получаем 2010
+    let result_1 = 10 + 10 + "10";
+    console.log(result_1);
+
+    // Получаем 101010, так как вторая десятка это строчный элемент
+    let result_2 = 10 + "10" + 10;
+    console.log(result_2);
+
+    let result_3 = 10 + 10 + +"10";
+    console.log(result_3);
+
+    let result_4 = 10 / -"";
+    console.log(result_4);
+
+    //некорректно записано десятичная дробь, нужна точка
+    let result_5 = 10 / + "2,5";
+    console.log(result_5);
+
+</script>
